@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
-  /* background-color: #f4f4f4; */
+  background-color: #f4f4f4;
   background-image: url(./images/Car.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -22,7 +22,8 @@ a {
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   position: fixed;
   width: 100%;
-  z-index: 3;
+  z-index: 10000;
+  top: 0;
 }
 
 .header ul {
@@ -46,7 +47,8 @@ a {
 .header li a:hover,
 .header .menu-btn:hover {
   /* background-color: #f4f4f4; */
-  background-color: rgb(237, 80, 40);
+  /* background-color: rgb(237, 80, 40); */
+  color: rgb(237, 80, 40);
 }
 
 .header .logo {
@@ -164,4 +166,66 @@ footer {
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   color: white;
+}
+
+.locationsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 10vw;
+  padding: 1vw;
+  width: 35vw;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.locationsContainer a h1:hover {
+  color: rgb(237, 80, 40);
+}
+
+.parkMeadows img {
+  border: 2px white solid;
+  width: 30vw;
+  height: auto;
+}
+
+.OP img {
+  border: 2px white solid;
+  width: 30vw;
+  height: auto;
+}
+
+.sushiDen img {
+  border: 2px white solid;
+  width: 30vw;
+  height: auto;
+}
+
+h1, p {
+  /* color: rgb(237, 81, 40); */
+  color: white;
+  font-size: 4vw;
+}
+
+.aboutContainer {
+  display: flex;
+  margin: 20vw;
+}
+
+.aboutContainer img {
+  height: 40vh;
+  width: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 15vw;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
