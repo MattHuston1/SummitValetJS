@@ -192,13 +192,13 @@ footer {
 }
 
 .OP img {
-  border: 2px white solid;
+  border: 2px solid white;
   width: 30vw;
   height: auto;
 }
 
 .sushiDen img {
-  border: 2px white solid;
+  border: 2px solid white;
   width: 30vw;
   height: auto;
 }
@@ -229,4 +229,15 @@ a {
   margin: 15vw;
   background: rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+}
+
+.slideshowImages {
+  margin-top: 20vh;
+  margin-left: 10vw;
+}
+
+.slideshowImages img {
+  border: 2px solid white;
+  height: 40vh;
+  width: auto;
 }
