@@ -176,7 +176,7 @@ footer {
   margin-top: 15vh;
   margin-left: 10vw;
   padding: 1vw;
-  width: 35vw;
+  width: 30vw;
   background: rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
@@ -185,22 +185,14 @@ footer {
   color: rgb(237, 80, 40);
 }
 
-.parkMeadows img {
+.locationsContainer a img:hover {
+  border: 2px rgb(237, 80, 40) solid;
+}
+
+.locationsContainer a img {
   border: 2px white solid;
   width: 30vw;
-  height: auto;
-}
-
-.OP img {
-  border: 2px solid white;
-  width: 30vw;
-  height: auto;
-}
-
-.sushiDen img {
-  border: 2px solid white;
-  width: 30vw;
-  height: auto;
+  height: auto; 
 }
 
 h1, p {
@@ -234,6 +226,7 @@ a {
 .slideshowImages {
   margin-top: 20vh;
   margin-left: 10vw;
+  margin-right: 10vw;
 }
 
 .slideshowImages img {
