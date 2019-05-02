@@ -155,6 +155,33 @@ a {
   }
 }
 
+@media (max-width: 48em) {
+  body {
+    padding-top: 10vh;
+  }
+  .contactContainer {
+    flex-direction: column;
+  }
+  .contactContainer div h1 {
+    font-size: 10vw;
+  }
+  .contactContainer div h3 {
+    font-size: 7vw;
+  }
+  .contactContainer div p {
+    font-size: 5vw;
+  }
+  .parkMeadows a h1 {
+    font-size: 7vw;
+  }
+  .OP a h1 {
+    font-size: 7vw;
+  }
+  .sushiDen a h1 {
+    font-size: 7vw;
+  }
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -173,10 +200,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 15vh;
-  margin-left: 10vw;
-  padding: 1vw;
-  width: 30vw;
+  margin: 10vw;
+  padding: 5vw;
   background: rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
@@ -191,14 +216,30 @@ footer {
 
 .locationsContainer a img {
   border: 2px white solid;
-  width: 30vw;
+  width: 50vw;
   height: auto; 
 }
 
-h1, p {
+.locationsContainer a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
   /* color: rgb(237, 81, 40); */
   color: white;
   font-size: 4vw;
+}
+
+h3 {
+  color: white;
+  font-size: 2vw;
+}
+
+p {
+  color: white;
+  font-size: 1.5vw;
 }
 
 .aboutContainer {
@@ -217,10 +258,25 @@ a {
 
 .contactContainer {
   display: flex;
-  flex-direction: column;
-  margin: 15vw;
+  justify-content: space-between;
+  margin: 10vw;
   background: rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  padding: 1vw;
+}
+
+.jeff, .patric {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jeff img {
+  height: 30vw;
+}
+
+.patric img {
+  height: 30vw;
 }
 
 .slideshowImages {
