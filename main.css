@@ -24,11 +24,6 @@ body {
   position: fixed;
 }
 
-.mainContainer {
-  /* position: fixed; */
-  /* text-align: center; */
-}
-
 .centered {
   position: relative;
   top: 25vh;
@@ -255,7 +250,7 @@ ul li ul li {
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   /* border-top: 2px solid black; */
   position: absolute;
@@ -265,6 +260,10 @@ footer {
   left: 0;
   background: rgba(0, 0, 0, 0.5);
   color: white;
+}
+
+footer img {
+  height: 5vh;
 }
 
 .locationsContainer {
@@ -331,13 +330,13 @@ a {
 .contactContainer {
   display: flex;
   justify-content: space-between;
-  margin: 10vw;
+  margin-top: 15vh;
   background: rgba(0, 0, 0, 0.3);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   padding: 1vw;
 }
 
-.jeff, .patric {
+.jeff, .patric, .matt {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -353,6 +352,10 @@ a {
   height: 30vw;
 }
 
+.matt img {
+  height: 30vw;
+}
+
 .slideshowImages {
   margin-top: 20vh;
   margin-left: 10vw;
@@ -363,4 +366,38 @@ a {
   border: 2px solid white;
   height: 40vh;
   width: auto;
+}
+
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.formContainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10vw;
 }
