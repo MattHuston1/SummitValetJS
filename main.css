@@ -299,18 +299,23 @@ footer img {
   /* height: 100vw; */
 }
 
-.locationsContainer a h1:hover {
+.locationsContainer h1:hover {
   color: rgb(237, 80, 40);
 }
 
-.locationsContainer a img:hover {
+.locationsContainer img:hover {
   border: 2px rgb(237, 80, 40) solid;
 }
 
-.locationsContainer a img {
+.locationsContainer p:hover {
+  color: rgb(237, 80, 40);
+}
+
+.locationsContainer img {
   border: 2px white solid;
   width: 50vw;
-  height: auto; 
+  height: 60vh;
+  /* height: auto;  */
 }
 
 .locationsContainer a {
@@ -408,6 +413,14 @@ a {
   width: auto;
 }
 
+.restaurantList li:hover {
+  color: rgb(237, 80, 40);
+}
+
+.restaurantList li {
+  color: white;
+}
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */  
@@ -441,3 +454,5 @@ input[type=submit]:hover {
   padding: 20px;
   margin: 10vw;
 }
+
+
