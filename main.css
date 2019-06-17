@@ -226,6 +226,7 @@ ul li ul li {
   }
   .contactContainer {
     flex-direction: column;
+    margin: 3vw;
   }
   .contactContainer div h1 {
     font-size: 10vw;
@@ -260,6 +261,12 @@ ul li ul li {
   }
   .about p {
     font-size: 5vw;
+  }
+  .locationsContainer p {
+    font-size: 3vw;
+  }
+  .restaurantList li {
+    font-size: 3vw;
   }
 }
 
