@@ -38,9 +38,9 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  top: 100vh;
+  top: 70vh;
   color: white;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
   border-top: 2px solid black;
   width: 100vw;
 }
@@ -217,6 +217,9 @@ ul li ul li {
   .header .menu-icon {
     display: none;
   }
+  .main h1 {
+    z-index: 20000;
+  }
 }
 
 @media (max-width: 48em) {
@@ -272,7 +275,7 @@ ul li ul li {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   /* border-top: 2px solid black; */
   position: absolute;
@@ -280,7 +283,8 @@ footer {
   height: 10%;
   width: 100%;
   left: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background-color: rgb(80, 100, 120);
+  /* background: rgba(0, 0, 0, 0.5); */
   color: white;
 }
 
@@ -358,16 +362,6 @@ li {
   text-shadow: 4px 3px 0px rgba(255, 255, 255, 0.15), 3px 2px 0px rgba(0, 0, 0, 0.55);
 }
 
-/* .aboutContainer {
-  display: flex;
-  margin: 20vw;
-}
-
-.aboutContainer img {
-  height: 40vh;
-  width: auto;
-} */
-
 a {
   text-decoration: none;
 }
@@ -379,6 +373,15 @@ a {
   background: rgba(0, 0, 0, 0.6);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
   padding: 1vw;
+}
+
+.contactContainer a {
+  color: white;
+  font-size: 2vw;
+}
+
+.contactContainer a:hover {
+  color: rgb(237, 80, 40);
 }
 
 .jeff, .patric, .matt {
