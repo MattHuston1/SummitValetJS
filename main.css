@@ -26,12 +26,15 @@ body {
 
 .centered {
   position: relative;
-  top: 15vh;
+  /* position: sticky; */
+  top: 0;
+  margin-top: 15vh;
   padding-left: 10vw;
   /* left: 75%; */
   /* transform: translate(-50%, -50%); */
   font-size: 7vw;
 }
+
 
 .about {
   display: flex;
@@ -217,8 +220,10 @@ ul li ul li {
   .header .menu-icon {
     display: none;
   }
-  .main h1 {
-    z-index: 20000;
+  .mainContainer {
+    position: sticky;
+    top: 0;
+    z-index: 30000;
   }
 }
 
