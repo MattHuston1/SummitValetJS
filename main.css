@@ -279,12 +279,9 @@ ul li ul li {
   .restaurantList li {
     font-size: 3vw;
   }
-  /* .mainContainer {
-    position: sticky;
-    top: 0;
-    z-index: 30000;
-    font-size: 4vw;
-  } */
+  .jeff, .patric, .matt {
+    flex-direction: column;
+  }
 }
 
 footer {
@@ -384,6 +381,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-content: center;
   margin-top: 15vh;
   background: rgba(0, 0, 0, 0.6);
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
@@ -408,15 +406,7 @@ a {
   padding: 2vw;;
 }
 
-.jeff img {
-  height: 30vw;
-}
-
-.patric img {
-  height: 30vw;
-}
-
-.matt img {
+.jeff img, .patric img, .matt img {
   height: 30vw;
 }
 
