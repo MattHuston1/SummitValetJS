@@ -6,6 +6,7 @@ html {
 body {
   margin: 0;
   font-family: Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   /* background-color: #f4f4f4; */
   background: url(./images/Car.jpg) no-repeat center center fixed;
   /* background-image: url(./images/Car.jpg); */
