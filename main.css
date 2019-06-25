@@ -282,13 +282,7 @@ ul li ul li {
   .contactContainer div img {
     height: 25vh;
   }
-  .parkMeadows a h1 {
-    font-size: 7vw;
-  }
-  .OP a h1 {
-    font-size: 7vw;
-  }
-  .sushiDen a h1 {
+  .parkMeadows a h1, .OP a h1, .sushiDen a h1 {
     font-size: 7vw;
   }
   .centered {
@@ -306,7 +300,7 @@ ul li ul li {
   }
   .locationsContainer p {
     font-size: 3vw;
-  }
+  } 
   .restaurantList li {
     font-size: 3vw;
   }
@@ -360,8 +354,6 @@ footer img {
 .locationsContainer img {
   border: 2px white solid;
   width: 50vw;
-  height: 60vh;
-  /* height: auto;  */
 }
 
 .locationsContainer a {
@@ -424,7 +416,6 @@ a {
 .jeff, .patric, .matt {
   display: flex;
   justify-content: space-around;
-  /* flex-direction: column; */
   align-items: center;
   border: 2px solid white;
   padding: 2vw;;
