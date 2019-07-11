@@ -132,6 +132,7 @@ ul li ul:hover {
   visibility: visible;
   opacity: 1;
   display: block;
+  background: rgb(80, 100, 120);
 }
 
 ul li ul li {
@@ -441,7 +442,7 @@ a {
   color: white;
 }
 
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */  
   border: 1px solid #ccc; /* Gray border */
@@ -453,7 +454,7 @@ input[type=text], select, textarea {
 }
 
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+button[type=submit] {
   background-color: #4CAF50;
   color: white;
   padding: 12px 20px;
@@ -463,7 +464,7 @@ input[type=submit] {
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
+button[type=submit]:hover {
   background-color: #45a049;
 }
 
