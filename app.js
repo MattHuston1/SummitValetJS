@@ -1,6 +1,6 @@
 $(document).ready(function () {
   $(".submit").click(function (event) {
-    event.preventDefault()
+    // event.preventDefault()
     console.log('Clicked')
 
     var email = $(".email").val()
