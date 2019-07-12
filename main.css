@@ -91,6 +91,8 @@ a {
   width: 100%;
   z-index: 10000;
   top: 0;
+  /* border-bottom: 5px solid white; */
+  border-bottom: 7px solid rgb(237, 80, 40);
 }
 
 .header ul {
