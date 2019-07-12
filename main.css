@@ -100,12 +100,11 @@ a {
 
 .header li a {
   display: block;
-  /* padding: 20px 20px; */
+  padding: 20px 20px;
   border-right: 1px solid #f4f4f4;
   text-decoration: none;
   color: white;
   transition-duration: 0.5s;
-  
 }
 
 .header li a:hover,
@@ -242,11 +241,11 @@ ul li ul li {
   .header .menu-icon {
     display: none;
   }
-  .mainContainer {
+  /* .mainContainer {
     position: sticky;
-    top: 0;
-    z-index: 30000;
-  }
+    top: -8px;;
+    z-index: 10000;
+  } */
 }
 
 @media (max-width: 48em) {
