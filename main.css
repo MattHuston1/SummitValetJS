@@ -93,6 +93,8 @@ a {
   top: 0;
   /* border-bottom: 5px solid white; */
   border-bottom: 7px solid rgb(237, 80, 40);
+  display: flex;
+  justify-content: space-between;
 }
 
 .header ul {
