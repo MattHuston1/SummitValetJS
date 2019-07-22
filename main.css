@@ -107,10 +107,14 @@ a {
 .header li a {
   display: block;
   padding: 20px 20px;
-  border-right: 1px solid #f4f4f4;
+  /* border-right: 1px solid #f4f4f4; */
   text-decoration: none;
   color: white;
   transition-duration: 0.5s;
+}
+
+.borderRight {
+  border-right: 1px solid #f4f4f4;
 }
 
 .header li a:hover,
@@ -130,6 +134,7 @@ ul li ul {
   /* left: 0; */
   display: none;
   background: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #f4f4f4;
 }
 
 ul li:hover > ul,
