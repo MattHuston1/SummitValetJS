@@ -247,11 +247,15 @@ ul li ul li {
   .header .menu-icon {
     display: none;
   }
-  /* .mainContainer {
+}
+
+@media (min-width: 80em) {
+  .mainContainer {
     position: sticky;
     top: -8px;;
     z-index: 10000;
-  } */
+    width: 60vw;
+  }
 }
 
 @media (max-width: 48em) {
@@ -480,5 +484,6 @@ button[type=submit]:hover {
   padding: 20px;
   margin: 10vw;
 }
+
 
 
