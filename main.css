@@ -56,6 +56,9 @@ body:after{
   font-size: 7vw;
 }
 
+/* .pageTitle {
+  font-size: 6vw;
+} */
 
 .about {
   display: flex;
@@ -95,6 +98,8 @@ a {
   border-bottom: 7px solid rgb(237, 80, 40);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 12vh;
 }
 
 .header ul {
