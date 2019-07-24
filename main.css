@@ -305,6 +305,9 @@ ul li ul li {
   .contactContainer div img {
     height: 25vh;
   }
+  .contactContainer div .tele {
+    font-size: 5vw;
+  }
   .parkMeadows a h1, .OP a h1, .sushiDen a h1 {
     font-size: 7vw;
   }
@@ -322,10 +325,10 @@ ul li ul li {
     font-size: 5vw;
   }
   .locationsContainer p {
-    font-size: 3vw;
+    font-size: 3.5vw;
   } 
-  .restaurantList li {
-    font-size: 3vw;
+  .restaurantList li, .locationsContainer h3 {
+    font-size: 5vw;
   }
   .jeff, .patric, .matt {
     flex-direction: column;
@@ -421,7 +424,6 @@ h3 {
 p {
   font-size: 2vw;
 }
-
 
 a {
   text-decoration: none;
